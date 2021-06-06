@@ -35,7 +35,7 @@ class App extends React.Component {
             // passing a second function to set state because setstate is async and we
             //  need it to finish
             () => {
-              console.log(this.state);
+              //   console.log(this.state);
             }
           );
         });
