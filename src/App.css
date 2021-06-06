@@ -7,3 +7,8 @@ a {
   text-decoration: none;
   color: black;
 }
+
+/* adjust the boerder and pading on elements */
+* {
+  box-sizing: border-box;
+}
