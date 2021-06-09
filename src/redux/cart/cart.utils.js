@@ -11,6 +11,6 @@ export const addItemToCart = (cartItems, cartItemToAdd) => {
         : cartItem
     );
   }
-
+  // if the item doesnt existis we return it adding the quantity property
   return [...cartItems, { ...cartItemToAdd, quantity: 1 }];
 };
